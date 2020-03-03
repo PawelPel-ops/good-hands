@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:399,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:399,700&display=swap&subset=latin-ext');
+
+@import '~reset-css';
+@import './settings/fonts';
+@import './settings/colors';
+
+body {
+  font-family: $font-base;
+  color: $dark-font-color;
+}
