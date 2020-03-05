@@ -4,15 +4,19 @@ import Login from "./Login";
 
 const HomeHeader = () => {
     return (
-        <div>
-           <h1>Header</h1>
-
-
-            <h2>Zacznij pomagać!</h2>
-            <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
-
-            <Link to="/login">Oddaj rzeczy</Link>
-            <Link to="/login">Zorganizuj zbiórkę</Link>
+        <div className="home_header" id="start">
+            {/*<div style={{width:"1200px", height:"1200px"}}></div>*/}
+            <div className="home_header_title">
+                <h2>Zacznij pomagać!<br /> Oddaj niechciane rzeczy w zaufane ręce</h2>
+                <div className="home_header_buttons">
+                    <div>
+                        <Link to="/login">Oddaj<br /> rzeczy</Link>
+                    </div>
+                    <div>
+                        <Link to="/login">Zorganizuj zbiórkę</Link>
+                    </div>
+                </div>
+            </div>
             <Switch>
                 <Route path="/login" component={Login} />
             </Switch>
