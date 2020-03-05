@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:399,700&display=swap&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:399,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,700&display=swap&subset=latin-ext');
 
 @import '~/node_modules/reset-css/reset.css';
 @import './settings/fonts';
 @import './settings/colors';
+@import 'Nav';
 
 body {
   font-family: $font-base;
   color: $dark-font-color;
+  font-size: 12px;
 }
