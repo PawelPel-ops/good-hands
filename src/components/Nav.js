@@ -1,7 +1,5 @@
 import React from 'react';
-import {Link, Route, Switch} from "react-router-dom";
-import Login from "./Login";
-import Registration from "./Registration";
+import {Link} from "react-router-dom";
 import {Link as LinkScroll} from "react-scroll";
 
 const Nav = () => {
@@ -15,10 +13,6 @@ const Nav = () => {
                     <li><Link to="/registration">
                         Załóż konto
                     </Link></li>
-                    <Switch>
-                        <Route path="/login" component={Login} />
-                        <Route path="/registration" component={Registration} />
-                    </Switch>
                 </ul>
                 <ul className="scroll_nav">
 

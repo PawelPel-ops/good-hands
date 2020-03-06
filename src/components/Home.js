@@ -11,12 +11,12 @@ const Home = () => {
     return (
         <div>
             <HomeHeader title="Start" dark={true} id="start"/>
-
-                <WhatIsGoingOn title="Start" dark={true} id="start"/>
+            <HomeThreeColumns />
+            <WhatIsGoingOn title="whatIsGoingOn" dark={true} id="whatIsGoingOn"/>
                 <AboutUs title="Start" dark={true} id="start"/>
                 <Foundation title="Start" dark={true} id="start"/>
                 <Contact title="Start" dark={true} id="start"/>
-            <HomeThreeColumns/>
+
 
         </div>
     );
