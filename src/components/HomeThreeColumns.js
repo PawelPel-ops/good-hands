@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeThreeColumns = () => {
     return (
-        <div className="threeColumns">
+        <div className="threeColumns" container>
            <div className="threeColumns_container">
                <h4 className="threeColumns_header">10</h4>
                <span className="threeColumns_span">oddanych worków</span>

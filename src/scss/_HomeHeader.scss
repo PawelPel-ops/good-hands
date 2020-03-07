@@ -1,13 +1,28 @@
 .home_header {
+  width: 100vw;
   display: flex;
   justify-content: space-around;
+  .home_header_image {
+    width: 50%;
+    //height: 100vh;
+    background-image: url(../assets/Home-Hero-Image.jpg);
+    background-position: right;
+    background-size: cover;
+  }
   .home_header_title {
+    width: 50%;
     text-align: center;
+    margin-top: 17.5em;
     h2 {
       font-size: 3em;
     }
+    img {
+      margin-bottom: 5em;
+    }
     .home_header_buttons {
       display: flex;
+      justify-content: center;
+      margin-bottom: 22.5em;
       div {
         display: flex;
         justify-content: center;

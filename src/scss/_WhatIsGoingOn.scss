@@ -1,0 +1,58 @@
+.whatIsGoingOn {
+  text-align: center;
+  .whatIsGoingOn_header {
+    font-size: 2.8em;
+    font-weight: 300;
+    margin-top: 1em;
+  }
+  img {
+    margin-bottom: 2.5rem;
+  }
+  .whatIsGoingOn_container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $background-color;
+    .whatIsGoingOn_element {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      //max-width: 13rem;
+      img {
+        max-height: 6.5rem;
+        margin: 6rem 9.2rem 0.7rem 9.2rem;
+      }
+      span {
+        font-size: 1.5rem;
+      }
+      hr {
+        width: 30%;
+        margin: 1.3rem auto;
+      }
+      p {
+        font-size: 1rem;
+        margin: 0 auto 5.2rem auto;
+      }
+    }
+  }
+  .whatIsGoingOn_button {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 6.5rem auto;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid $dark-font-color;
+      height: 10em;
+      width: 25em;
+      margin: 0 1.8em;
+
+      a {
+        text-decoration: none;
+        color: $dark-font-color;
+        text-transform: uppercase;
+        font-size: 2.8em;
+      }
+    }
+  }
+}
