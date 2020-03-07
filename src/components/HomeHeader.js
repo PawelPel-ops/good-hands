@@ -12,7 +12,7 @@ const HomeHeader = () => {
             </div>
             <div className="home_header_title">
                 <h2>Zacznij pomagać!<br /> Oddaj niechciane rzeczy w zaufane ręce</h2>
-                <img src={Decoration} />
+                <img src={Decoration} alt="decoration"/>
                 <div className="home_header_buttons">
                     <div>
                         <Link to="/login">Oddaj<br /> rzeczy</Link>

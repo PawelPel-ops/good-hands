@@ -13,7 +13,7 @@ const Home = () => {
             <HomeHeader title="Start" dark={true} id="start"/>
             <HomeThreeColumns />
             <WhatIsGoingOn title="whatIsGoingOn" dark={true} id="whatIsGoingOn"/>
-                <AboutUs title="Start" dark={true} id="start"/>
+            <AboutUs title="aboutUs" dark={true} id="aboutUs"/>
                 <Foundation title="Start" dark={true} id="start"/>
                 <Contact title="Start" dark={true} id="start"/>
 

@@ -1,0 +1,28 @@
+.aboutUs {
+  background-color: $background-color;
+  display: flex;
+  .aboutUs_content {
+    width: 50%;
+    text-align: center;
+    .aboutUs_header {
+      font-size: 3rem;
+      font-weight: 300;
+      margin: 11rem 0 0 0;
+    }
+    .aboutUs_decoration {
+      margin: 1.5em auto 2em auto;
+    }
+    p {
+      font-size: 2rem;
+      margin: auto 12.5rem;
+    }
+    .aboutUs_signature {
+      margin-right: 12.5rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .aboutUs_image {
+    width: 50%;
+  }
+}
